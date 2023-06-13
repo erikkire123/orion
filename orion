@@ -14,12 +14,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
+			Main = Color3.fromRGB(20, 20, 20),
+			Second = Color3.fromRGB(27, 27, 27),
+			Stroke = Color3.fromRGB(100, 100, 100),
+			Divider = Color3.fromRGB(120, 120, 120),
+			Text = Color3.fromRGB(255, 255, 255),
+			TextDark = Color3.fromRGB(160, 160, 160)
 		}
 	},
 	SelectedTheme = "Default",
@@ -583,7 +583,7 @@ function OrionLib:MakeWindow(WindowConfig)
 			AddThemeObject(SetProps(MakeElement("Label", "", 12), {
 				Size = UDim2.new(1, -60, 0, 12),
 				Position = UDim2.new(0, 50, 1, -25),
-				Visible = true
+				Visible = not WindowConfig.HidePremium
 			}), "TextDark")
 		}),
 	}), "Second")
