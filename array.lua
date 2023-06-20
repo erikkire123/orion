@@ -3096,8 +3096,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 			Main.ImageTransparency = 1
 			Background.BackgroundTransparency = 1
 			local opened  = false 
+			
 			local mouse = game.Players.LocalPlayer:GetMouse()
-			Main.Image = "http://www.roblox.com/asset/?id=11415645739"
+			Main.Image = "http://www.roblox.com/asset/?id=12072054746"
 			local mainDragging = false 
 			local sliderDragging = false 
 			ColorPicker.Interact.MouseButton1Down:Connect(function()
