@@ -3098,7 +3098,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			local opened  = false 
 			
 			local mouse = game.Players.LocalPlayer:GetMouse()
-			Main.Image = "http://www.roblox.com/asset/?id=12072054746"
+			Main.Image = ""
 			local mainDragging = false 
 			local sliderDragging = false 
 			ColorPicker.Interact.MouseButton1Down:Connect(function()
@@ -3739,7 +3739,7 @@ ArrayfieldImageUI.BackgroundTransparency = 1.000
 ArrayfieldImageUI.BorderSizePixel = 0
 ArrayfieldImageUI.Position = UDim2.new(0.0, 0, 0.0, 0)
 ArrayfieldImageUI.Size = UDim2.new(0, 50, 0, 50)
-ArrayfieldImageUI.Image = ""
+ArrayfieldImageUI.Image = "http://www.roblox.com/asset/?id=12072054746"
 
 -----------
 
